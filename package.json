@@ -1,7 +1,7 @@
 {
   "name": "python-getting-started",
   "scripts": {
-    "postinstall": "node_modules/webpack/bin/webpack.js",
+    "postinstall": "./node_modules/webpack/bin/webpack.js",
     "webpack": "node_modules/webpack/bin/webpack.js --progress --colors --watch"
   },
   "dependencies": {
